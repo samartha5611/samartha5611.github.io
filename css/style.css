@@ -9,15 +9,19 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 /*=== MEDIA QUERY ===*/
 @import url("https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Noto+Serif+JP:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Cormorant+Garamond:wght@300&family=Noto+Serif+JP:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Cormorant+Garamond:wght@300&family=Noto+Serif+JP:wght@200&family=Quicksand:wght@300&display=swap");
 html {
   background-color: #353b43;
   color: #737f8a;
 }
-
+/* 737f8a */
 body {
   background-color: #353b43;
   font-family: "Anaheim", sans-serif;
-  color: #737f8a;
+  color: #ffffff;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -29,9 +33,9 @@ h5,
 h6 {
   font-weight: 400;
   font-family: "Quattrocento Sans", sans-serif;
-  color: #afbac4;
+  color: #ffffff;
 }
-
+/* afbac4 */
 p {
   font-family: "Quattrocento Sans", sans-serif;
 }
@@ -166,7 +170,7 @@ a:hover {
 }
 
 .color {
-  color: #6cb670;
+  color: #57cbcc;
 }
 
 .sub-title {
@@ -188,11 +192,11 @@ a:hover {
 }
 
 .bg-one {
-  background-color: #353b43;
+  background-color: #353b43; /*353b43*/
 }
 
 .bg-dark {
-  background: #242930;
+  background: #36393f;
 }
 
 .parallax-section {
@@ -405,12 +409,20 @@ a:hover {
 }
 
 .title {
+  font-family: "Comfortaa", cursive;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Noto Serif JP", serif;
+  font-family: "Quicksand", sans-serif;
   padding-bottom: 60px;
 }
 
 .title h2 {
+  font-family: "Comfortaa", cursive;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Noto Serif JP", serif;
+  font-family: "Quicksand", sans-serif;
   text-transform: capitalize;
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 38px;
   color: #fff;
 }
@@ -605,13 +617,14 @@ a:hover {
   Navigation
 ==================================================================*/
 .navigation {
-  background-color: #1d2024;
+  background-color: #000000;
   width: 100%;
   z-index: 99;
   margin-bottom: 0;
   padding: 10px;
 }
 
+/* 1d2024 */
 .navigation .logo {
   padding: 0;
   height: auto;
@@ -628,8 +641,9 @@ a:hover {
 }
 
 .navigation .navigation-menu li a {
-  font-size: 16px;
-  color: #737f8a;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Comfortaa", cursive;
 }
 
 .navigation .navigation-menu li a:hover,
@@ -686,20 +700,25 @@ a:hover {
   margin-left: 3px;
   color: #57cbcc;
 }
-
 .hero-area .block h1 {
+  font-family: "Comfortaa", cursive;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Noto Serif JP", serif;
   font-size: 90px;
   color: #fff;
   text-transform: capitalize;
-  font-weight: 700;
+  /* font-weight: 700;   */
   margin-bottom: 20px;
 }
 
 .hero-area .block h2 {
+  font-family: "Comfortaa", cursive;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Noto Serif JP", serif;
   font-size: 60px;
   color: #fff;
   text-transform: capitalize;
-  font-weight: 700;
+  /* font-weight: 700; */
   margin-bottom: 20px;
 }
 
@@ -717,6 +736,9 @@ a:hover {
 }
 
 .hero-area .block .btn-transparent {
+  font-family: "Comfortaa", cursive;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Noto Serif JP", serif;
   margin-top: 40px;
   border-color: #fff;
   padding: 14px 50px;
