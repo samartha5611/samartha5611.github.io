@@ -13,6 +13,7 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Noto+Serif+JP:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Cormorant+Garamond:wght@300&family=Noto+Serif+JP:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Cormorant+Garamond:wght@300&family=Noto+Serif+JP:wght@200&family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap");
 html {
   background-color: #353b43;
   color: #737f8a;
@@ -566,7 +567,8 @@ a:hover {
 }
 
 .Resume {
-  font-size: 700%;
+  color: #000;
+  font-size: 600%;
 }
 
 /* Google Fonts */
